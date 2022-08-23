@@ -1,8 +1,26 @@
 
 void setup(){
-  //some of your code here
+  size(400,400);
+  background(#295398);
 }
 void draw(){
-  //more of your code here
-}
+  fill(#7E817E);
 
+  line(375, 0, 350, 260);
+  line(350, 260, 345, 240);
+
+  fill(#C18A23);
+  triangle(130, 200, 100, 200, 100, 150);
+  triangle(130, 200, 100, 200, 100, 250);
+
+  ellipse(195,200,150,75);
+
+  fill(255, 255, 255);
+  ellipse(245, 190, 20, 20);
+
+  rect(210, 165, 15, 69);
+  triangle(210, 165, 225, 165, 210, 162);
+  triangle(210, 233, 225, 233, 210, 237);
+  //triangle(139, 175, 155, 175, 155, 167);
+  //triangle(139,225, 155, 225, 155, 232);
+}
