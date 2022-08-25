@@ -33,7 +33,18 @@ void draw(){
   
   fill(#CE8EC7);
   ellipse(347, 250, 30, 10);
+
+  fill(#013474);
+  ellipse(280, 150, 13, 13);
+  ellipse(290, 110, 13, 13);
+  ellipse(300, 70, 13, 13);
+    
+  fill(#79C3DE);
+  ellipse(280, 150, 10, 10);
+  ellipse(290, 110, 10, 10);
+  ellipse(300, 70, 10, 10);
   
+
   stroke(0, 0, 0);
   line(375, 0, 350, 260);
   line(350, 260, 345, 240);
